@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     private fun makeColored(view: View){
     when(view.id){
 
-        R.id.box_one_text -> view.setBackgroundColor(Color.DKGRAY)
+        R.id.box_one_text -> view.setBackgroundResource(R.drawable.abc_ab_share_pack_mtrl_alpha)
         R.id.box_two_text -> view.setBackgroundColor(Color.GRAY)
         R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
         R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
